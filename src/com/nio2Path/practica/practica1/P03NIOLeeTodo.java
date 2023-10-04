@@ -26,6 +26,8 @@ public class P03NIOLeeTodo {
             fileArr = Files.readAllLines(file);
             
             System.out.println("\n=== Rosencrantz ===");
+            
+            
             fileArr.stream()
                 .filter(line -> line.contains("Ros."))
                 .forEach(linea -> System.out.println(linea));

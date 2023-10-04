@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.concurrencia;
 
 import java.util.concurrent.Executor;
@@ -16,7 +13,7 @@ public class EjemploExecutor {
 
     public static void main(String[] args) {
         // Crea un Executor con un pool de 3 hilos
-        ExecutorService executor = Executors.newFixedThreadPool(3);
+        ExecutorService executor = Executors.newFixedThreadPool(4);
 
         // Ejecuta tareas usando el Executor
         for (int i = 1; i <= 5; i++) {

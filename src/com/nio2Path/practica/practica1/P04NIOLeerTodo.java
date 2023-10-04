@@ -24,6 +24,7 @@ public class P04NIOLeerTodo {
                 .filter(palabra -> palabra.contains("lord"))
                 .peek(palabra -> System.out.println(palabra))
                 .count();
+            
             System.out.println("Cantidad de veces: " + cuentaLord);
 
             System.out.println("\n=== Contar 'Prison' ===");

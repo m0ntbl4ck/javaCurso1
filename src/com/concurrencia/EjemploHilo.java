@@ -18,9 +18,9 @@ public class EjemploHilo extends Thread{
         try{
             
             System.out.println("Soy un hilo");
-            Thread.sleep(2000);
+            Thread.sleep(4000);
             System.out.println("El hilo "+id);
-            Thread.sleep(2000);
+            Thread.sleep(4000);
             System.out.println("Fin del hilo");
         }catch(InterruptedException e){
             e.printStackTrace();
